@@ -51,7 +51,7 @@
     "url": "https://github.com/SkeletonGamer/edge-js-up"
   },
   "bugs": {
-    "url": "http://github.com/SkeletonGamer/edge-js-up/issues"
+    "url": "https://github.com/agracio/edge-js/issues"
   },
   "scripts": {
     "install": "node tools/install.js",

@@ -1,23 +1,20 @@
-# Edge.js: .NET and Node.js in-process
-[![Build Status](https://travis-ci.com/agracio/edge-js.svg)](https://travis-ci.com/agracio/edge-js)
-[![Build status](https://ci.appveyor.com/api/projects/status/3hs8xq7jieufw507/branch/master?svg=true)](https://ci.appveyor.com/project/agracio/edge-js/branch/master)
+# Edge.js UP: .NET and Node.js in-process
 
+This is a fork of a fork of [Edge.js](https://github.com/tjanczuk/edge) providing improvements and bug fixes that are not yet accepted into main Edge.js repo.
 
-This is a fork of [Edge.js](https://github.com/tjanczuk/edge) providing improvements and bug fixes that are not yet accepted into main Edge.js repo.
-
-**NPM** package is published as `edge-js`. https://www.npmjs.com/package/edge-js.
+**NPM** package is published as `edge-js-up`. https://www.npmjs.com/package/edge-js-up.
 
 **NuGet** package is published as [EdgeJs](https://www.nuget.org/packages/EdgeJs).
 
-Usage is same as edge, replace `require('edge')` with `require('edge-js')`:
+Usage is same as edge, replace `require('edge-js')` with `require('edge-js-up')`:
 
 ```bash
-npm install edge-js
+npm install edge-js-up
 ```
 
 ```diff
--var edge = require('edge');
-+var edge = require('edge-js');
+-var edge = require('edge-js');
++var edge = require('edge-js-up');
 
 var helloWorld = edge.func(function () {/*
     async (input) => {
