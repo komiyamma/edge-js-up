@@ -1,6 +1,6 @@
 # Edge.js UP: .NET and Node.js in-process
 
-This is a fork of a fork of [Edge.js](https://github.com/tjanczuk/edge) providing improvements and bug fixes that are not yet accepted into main Edge.js repo.
+This is a fork of a fork of [Edge.js](https://github.com/tjanczuk/edge) And [Edge.js](https://github.com/agracio/edge-js) providing improvements and bug fixes that are not yet accepted into main Edge.js repo.
 
 **NPM** package is published as `edge-js-up`. https://www.npmjs.com/package/edge-js-up.
 
@@ -25,7 +25,7 @@ var helloWorld = edge.func(function () {/*
 
 ## Main differences from `edge`
 
-* Support for Node.Js 12.x, 14.x, 16.x
+* Support for Node.Js 12.x, 14.x, 16.x, 17.x
 * Support for .NET Core 1.0.1 - 2.x on Windows/Linux/macOS.
 * Support for Mono runtime 4.8.x - 5.x.
 * Fixes AccessViolationException when running Node.js code from C# [PR #573](https://github.com/tjanczuk/edge/pull/573).
