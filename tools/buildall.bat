@@ -1,2 +1,2 @@
 @echo off
-"%~dp0\build.bat" release 12.22.12 14.19.1 16.15.0 17.9.0
+"%~dp0\build.bat" release 12.22.12 14.20.0 16.16.0 17.9.1 18.5.0
