@@ -1,14 +1,14 @@
 image:
   - Visual Studio 2015
-  - Ubuntu
+  - Ubuntu2004
 
 environment:
   matrix:
     # node.js
+    - nodejs: "18"
     - nodejs: "17"
     - nodejs: "16"
     - nodejs: "14"
-    - nodejs: "12"
 
 install:
   - cmd: powershell Update-NodeJsInstallation (Get-NodeJsLatestBuild $env:nodejs) x64
