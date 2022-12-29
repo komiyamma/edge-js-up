@@ -1,5 +1,5 @@
 # Edge.js: .NET and Node.js in-process
-[![Build Status](https://app.travis-ci.com/agracio/edge-js.svg?branch=master)](https://app.travis-ci.com/github/agracio/edge-js)
+<!---[![Build Status](https://app.travis-ci.com/agracio/edge-js.svg?branch=master)](https://app.travis-ci.com/github/agracio/edge-js)--->
 [![Build status](https://ci.appveyor.com/api/projects/status/3hs8xq7jieufw507/branch/master?svg=true)](https://ci.appveyor.com/project/agracio/edge-js/branch/master)
 
 This is a fork of a fork of [Edge.js](https://github.com/tjanczuk/edge) And [Edge.js](https://github.com/agracio/edge-js) providing improvements and bug fixes that are not yet accepted into main Edge.js repo.
@@ -27,7 +27,7 @@ var helloWorld = edge.func(function () {/*
 
 ## Main differences from `edge`
 
-* Support for Node.Js 14.x, 16.x, 17.x, 18.x
+* Support for Node.Js 14.x, 16.x, 17.x, 18.x, 19.x 
 * Support for .NET Core 1.0.1 - 6.x on Windows/Linux/macOS.
 * Support for Mono runtime 4.8.x - 5.x.
 * Fixes AccessViolationException when running Node.js code from C# [PR #573](https://github.com/tjanczuk/edge/pull/573).
